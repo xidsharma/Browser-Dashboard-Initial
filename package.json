@@ -1,0 +1,31 @@
+{
+  "name": "browser-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard for the browser to be used in start and new tabs.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xidsharma/Browser-Dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xidsharma/Browser-Dashboard/issues"
+  },
+  "homepage": "https://github.com/xidsharma/Browser-Dashboard#readme",
+  "dependencies": {
+    "next": "^13.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.35",
+    "typescript": "5.0.4"
+  }
+}
