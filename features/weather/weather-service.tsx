@@ -1,10 +1,10 @@
 import PlaceDto from "../../remote/dto/place-dto";
 import WeatherDto from "../../remote/dto/weather-dto";
-import { ApiService } from "../../service/api-service";
+import { ApiService } from "../../remote/api-service";
 import { KeyValueStore } from "../../storage/key-value-store";
 import ServiceBase from "../util/service-base";
 import { Place } from "./place";
-import Weather from "./weather";
+import Weather from "./model/weather";
 import { mapPlace, mapWeather } from "./weather-mapper";
 
 export interface WeatherService {
@@ -47,6 +47,8 @@ export class WeatherServiceImpl extends ServiceBase implements WeatherService {
                     place = ipPlace
                 }
             }
+        } else {
+            this.keyValueStore.set("place", place);
         }
 
         return await this.map(

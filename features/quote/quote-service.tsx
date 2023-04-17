@@ -2,7 +2,7 @@ import { Quote } from "./quote";
 import QuoteDto from "../../remote/dto/quote-dto";
 import { mapQuote } from "./quote-mapper";
 import ServiceBase from "../util/service-base";
-import { ApiService } from "../../service/api-service";
+import { ApiService } from "../../remote/api-service";
 
 export interface QuoteService {
     getQuote(category?: string): Promise<Quote | Error>;

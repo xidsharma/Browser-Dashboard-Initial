@@ -1,10 +1,10 @@
 export const IP_INFO_URL = 'https://ipinfo.io/json?token=559005096c0064'
 
-export const QUOTES_URL = (category) => `https://api.api-ninjas.com/v1/quotes?category=${category}`;
-export const QUOTES_URL_API_KEY_HEADER = 'X-Api-Key';
-export const QUOTES_URL_API_KEY = 'DvzMLvzIHMR38U8HbtgAdw==6owLxUpVBL6fIWBf';
+export const QUOTES_URL = `https://api.quotable.io/quotes/random?maxLength=120`;
 
-const OPEN_WEATHER_MAP_API_KEY = '14ebd6bb1415e27ab25d60053aa8ee25';
+// temp mail weather key = '20b08cc46af45097e33dab00b05372c7'
+
+const OPEN_WEATHER_MAP_API_KEY = '20b08cc46af45097e33dab00b05372c7';
 
 const PLACES_API_LIMIT = 5;
 export const PLACES_URL = (city: string, country: string) => `http://api.openweathermap.org/geo/1.0/direct?q=${city},,${country}&limit=${PLACES_API_LIMIT}&appid=${OPEN_WEATHER_MAP_API_KEY}`;

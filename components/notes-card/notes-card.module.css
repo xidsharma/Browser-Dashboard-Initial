@@ -1,0 +1,14 @@
+
+.headerNotes {
+    display: flex;
+    outline: none;
+    border: none;
+    background: rgba(109, 108, 108, 0.25);
+    padding: 24px;
+    width: 100%;
+    height: 100%;
+    line-height: 18px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 100;
+}

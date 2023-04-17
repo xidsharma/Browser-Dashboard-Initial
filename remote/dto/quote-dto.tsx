@@ -1,5 +1,4 @@
 export default interface QuoteDto {
-    quote: string;
+    content: string;
     author: string;
-    category: string;
 }

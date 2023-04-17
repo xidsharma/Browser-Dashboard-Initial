@@ -1,0 +1,76 @@
+.headerWeatherContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    width: 100%;
+    height: fit-content;
+    gap: 24px;
+}
+
+.weatherHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+    height: fit-content;
+    gap: 16px;
+}
+
+.weatherHeaderTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+    height: fit-content;
+    gap: 8px;
+}
+
+.weatherIcon {
+    background: burlywood;
+}
+
+.city {
+    line-height: 21px;
+    color: white;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.weatherHeaderContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    width: 100%;
+    height: fit-content;
+    gap: 8px;
+}
+
+.temperature {
+    line-height: 42px;
+    color: white;
+    font-size: 32px;
+    font-weight: 450;
+}
+
+.condition {
+    line-height: 21px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.weatherStatsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 0px;
+    width: 100%;
+    height: fit-content;
+    gap: 16px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

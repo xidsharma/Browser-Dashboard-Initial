@@ -5,7 +5,7 @@ import Temperature from "./model/temperature";
 import WeatherCondition from "./model/weather-condition";
 import Wind from "./model/wind";
 import { Place } from "./place";
-import Weather from "./weather";
+import Weather from "./model/weather";
 
 export function mapWeather(weather: WeatherDto): Weather {
     const temperature: Temperature = new Temperature(
@@ -38,7 +38,7 @@ export function mapWeather(weather: WeatherDto): Weather {
             return new WeatherCondition(
                 dto.main,
                 dto.description,
-                "http://openweathermap.org/img/w/" + dto.icon + ".png"
+                "http://openweathermap.org/img/wn/" + dto.icon + "@2x.png"
             )
         }
     )
@@ -46,7 +46,6 @@ export function mapWeather(weather: WeatherDto): Weather {
     return new Weather(
         weather.name,
         temperature,
-        weather.main.pressure,
         weather.main.humidity,
         weather.visibility,
         wind,

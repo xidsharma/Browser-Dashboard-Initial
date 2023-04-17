@@ -1,0 +1,50 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: fit-content;
+    min-width: 80px;
+    flex: 1 1 30%;
+    height: fit-content;
+    gap: 8px;
+}
+
+.iconContainer {
+    height: 28;
+    width: fit-content;
+}
+
+.icon {
+    object-fit: contain;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.value {
+    font-size: 16px;
+    line-height: 21px;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+}
+
+.value.small {
+    font-size: 14px;
+}
+
+.label {
+    width: fit-content;
+    height: fit-content;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #D3D3D3;
+}

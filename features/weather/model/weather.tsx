@@ -1,13 +1,12 @@
-import Rain from "./model/rain";
-import Temperature from "./model/temperature";
-import WeatherCondition from "./model/weather-condition";
-import Wind from "./model/wind";
+import Rain from "./rain";
+import Temperature from "./temperature";
+import WeatherCondition from "./weather-condition";
+import Wind from "./wind";
 
 export default class Weather {
     constructor(
         public city: string,
         public temperatureInCelsius: Temperature,
-        public pressureInHectoPascal: number,
         public humidityPercentage: number,
         public visibilityInMeters: number,
         public wind: Wind,

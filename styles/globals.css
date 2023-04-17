@@ -3,7 +3,7 @@
 
     --motivation: #B2BEB5;
 
-    --white: #FFFFFF;
+    --white: #F5F5F5;
 
     --font-family: 'Fira Code', monospace;
 }
@@ -28,7 +28,8 @@ h4,
 h5,
 h6,
 p,
-button {
+button,
+textarea {
     font-family: var(--font-family);
     color: var(--white);
 }

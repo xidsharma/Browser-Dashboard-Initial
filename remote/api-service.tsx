@@ -19,9 +19,6 @@ export class ApiService {
     }
 
     async getQuote(category?: string): Promise<ApiResponse<[QuoteDto]>> {
-        return await get(
-            Constants.QUOTES_URL(category ? category : ''),
-            { key: Constants.QUOTES_URL_API_KEY_HEADER, value: Constants.QUOTES_URL_API_KEY }
-        )
+        return await get(Constants.QUOTES_URL)
     }
 }
