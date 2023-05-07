@@ -2,7 +2,7 @@ export const IP_INFO_URL = 'https://ipinfo.io/json?token=559005096c0064'
 
 export const QUOTES_URL = `https://api.quotable.io/quotes/random?maxLength=120`;
 
-// temp mail weather key = '20b08cc46af45097e33dab00b05372c7'
+// temp mail weather key = '20b08cc46af45097e33dab00b05372c7', '5945932e3e073a4a71a9e0939e950fdd'
 
 const OPEN_WEATHER_MAP_API_KEY = '20b08cc46af45097e33dab00b05372c7';
 
